@@ -1,0 +1,11 @@
+kendoctor_weixin_public_account_client_home:
+    path:   /weixin/public-account/client/{account}/home
+    defaults: { _controller: KendoctorWeixinBundle:Default:home }
+
+kendoctor_weixin_public_account_client_brief_of_post:
+    path:   /weixin/public-account/client/post/{id}/brief
+    defaults: { _controller: KendoctorWeixinBundle:Default:briefOfPost }
+
+kendoctor_weixin_public_account_client_show_of_post:
+    path:   /weixin/public-account/client/post/{id}/show
+    defaults: { _controller: KendoctorWeixinBundle:Default:showOfPost }

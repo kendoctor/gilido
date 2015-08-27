@@ -1,0 +1,18 @@
+default:
+    formatters:
+        pretty:
+            snippets: true
+
+    suites:
+        weixin:
+            contexts:
+                - Kendoctor\Bundle\WeixinBundle\Behat\WebContext
+                - Kendoctor\Bundle\WeixinBundle\Behat\WeixinContext
+
+    extensions:
+        Behat\Symfony2Extension: ~
+        Behat\MinkExtension:
+            sessions:
+                default:
+                    symfony2: ~
+
